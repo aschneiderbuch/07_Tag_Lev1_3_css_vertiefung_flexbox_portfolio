@@ -20,4 +20,35 @@ html{
     src: url("../fonts/Radio_Canada/RadioCanada-Italic-VariableFont_wdth\,wght.ttf");
 }
 
+h1{
+font-family: Radio Canada, sans-serif;
+font-size: 1.2rem;
+color: orange;
+margin: 1rem;
+}
 
+.sectionheader {
+    background-color: rgb(75, 75, 111);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+
+.nav{
+    margin-right: 2rem;
+    background-color: brown;
+}
+
+.alink{
+    background-color: green;
+    display: flex;
+
+    flex-wrap: nowrap;    /* * wird zur Liste und ist nicht mehr eine Zeile ??? */
+    
+    text-decoration: none;
+    color: black;
+    font-family: Radio Canada, sans-serif;
+    font-size: 0.9em;
+
+}

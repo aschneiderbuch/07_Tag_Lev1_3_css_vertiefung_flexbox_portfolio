@@ -1,3 +1,10 @@
+/* 
+
+font-family: Radio Canada, sans-serif;
+
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,4 +14,10 @@
 html{
     font-size: 16px;
 }
+
+@font-face {
+    font-family: Radio Canada;
+    src: url("../fonts/Radio_Canada/RadioCanada-Italic-VariableFont_wdth\,wght.ttf");
+}
+
 
